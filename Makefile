@@ -1,2 +1,2 @@
-CFLAGS=-Wall -pedantic -O3 -funroll-loops -fprofile-arcs
+CFLAGS=-Wall -pedantic -O2 --std=c99 -g
 ovm:
