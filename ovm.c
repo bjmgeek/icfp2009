@@ -9,5 +9,12 @@
 
 int main( int argc, char **argv) 
 {
+	double data_mem[16384] = {0};
+	int instruction_mem[16384] = {0};
+	double input_ports [16384] = {0};
+	double output_ports [16384] = {0};
+	short program_counter = 0;
+	unsigned status_register = 0;
+
 	return EXIT_SUCCESS;
 }
