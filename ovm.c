@@ -6,6 +6,7 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <stdbool.h>
 
 int main( int argc, char **argv) 
 {
@@ -14,7 +15,7 @@ int main( int argc, char **argv)
 	double input_ports [16384] = {0};
 	double output_ports [16384] = {0};
 	short program_counter = 0;
-	unsigned status_register = 0;
+	bool status_register = 0;
 
 	return EXIT_SUCCESS;
 }
